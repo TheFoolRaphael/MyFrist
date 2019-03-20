@@ -1,4 +1,4 @@
-# 我的第一次GitHub上传下载
+# 我的第一次
 
 Hello World 
 
@@ -50,8 +50,8 @@ int main()
 ### Python
 
 ```python
->>>> print "Hello, World!"
->>> print("Hello, World!")
+>>>> print "Hello, World!"	#python 2.x
+>>> print("Hello, World!")	#python 3.x
 ```
 
 
