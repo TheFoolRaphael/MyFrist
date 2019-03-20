@@ -9,7 +9,7 @@ Hello World
 ```java
 public class HelloWorld { 
 	public static void main(String[] args) {  
-		System.out.println("Hello，World!");  
+		System.out.println("Hello, World!");  
 	}  
 }
 ```
@@ -22,7 +22,7 @@ public class HelloWorld {
 #include <stdio.h>  
 int main()
 {  
-	printf("Hello,World!");
+	printf("Hello, World!");
 	return 1;
 }  
 ```
@@ -37,10 +37,10 @@ int main()
   
 int main()  
 {  
-	printf("Hello,World!--Way 1\n");
-	puts("Hello,World!--Way 2");
-	puts("Hello," " " "World!--Way 3");
-	std::cout << "Hello,World!--Way 4" << std::endl;
+	printf("Hello, World!--Way 1\n");
+	puts("Hello, World!--Way 2");
+	puts("Hello, " " " "World!--Way 3");
+	std::cout << "Hello, World!--Way 4" << std::endl;
 	return 1;
 }
 ```
@@ -50,10 +50,8 @@ int main()
 ### Python
 
 ```python
->>>> print "Hello,World!"
-Hello,World!  
->>> print("Hello,World!")
-Hello,World! 
+>>>> print "Hello, World!"
+>>> print("Hello, World!")
 ```
 
 
@@ -66,11 +64,45 @@ class TestApp
 {  
 	public static void Main()  
 	{  
-	Console.WriteLine("Hello,World!");  
-	Console.ReadKey();  
+		Console.WriteLine("Hello, World!");  
+		Console.ReadKey();  
 	}  
 }
 ```
 
 
 
+### PHP
+
+```php
+<?php  
+echo "Hello, World!";
+echo "php是世界上最好的语言!";
+echo phpinfo();
+?>
+```
+
+
+
+### Ruby
+
+```ruby
+def say(name)  
+	"Hello, #{name}"  
+end  
+puts say("World!")
+```
+
+
+
+### Scala
+
+```scala
+object HelloWorld  
+{  
+	def main(args:Array[String])   
+	{  
+		println("Hello, World!");  
+	}  
+}
+```
