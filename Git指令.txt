@@ -1,0 +1,23 @@
+Git常用命令：
+	git init				# 将当前文件夹初始化为Git本地仓库
+	git add 文件名			# 添加文件到暂存区
+	git add -u				# 添加修改过的文件
+	git commit -m "描述"	# 将暂存区文件提交到本地仓库
+	
+	#	连接远程仓库
+	git remote add origin https://github.com/TheFoolRaphael/MyFrist.git
+	git push origin master	# 将本地仓库文件push到远程仓库
+
+
+分支：
+	git branch -a			# 查看本地分支
+	git branch -r			# 查看远程分支
+	git branch				# 查看当前分支状态
+	git branch 分支名		# 新建分支
+	git checkout 分支名		# 切换分支
+	git checkout -b 分支名
+	git push origin * -u	# 将本地新建的分支推送到远程仓库中
+	
+	# push一个空分支，其实就相当于删除远程分支
+	git push origin :slave1
+	git push origin --delete slave1	# 删除指定的远程分支
